@@ -11,13 +11,9 @@
         <title xml:lang="gez">መልክአ፡ ኪዳነ፡ ምሕረት፡</title>
         <title xml:lang="gez" type="normalized">Malkǝʾa Kidāna Mǝḥrat</title>
         <title xml:lang="en">Image of the Covenant of Mercy</title>
-
-        <respStmt>
-          <resp>Edited by</resp><name>August Dillmann</name>
-        </respStmt>
         
         <respStmt>
-          <resp>Digitized by</resp><name>Augustine Dickinson</name>
+          <resp>Translated by</resp><name>Augustine Dickinson</name>
         </respStmt>
 
       </titleStmt>
@@ -39,11 +35,11 @@
       <div type="text" subtype="malke">
         
         <lg type="stanza" n="1" rhyme="ሉ">
-          <l n="1">እግዚአብሔር፡ ወሃቤ፡ ብርሃን፡ ዘይሤለስ፡ በአካሉ፡</l>
-          <l n="2">እንዘ፡ ተዋሕዶ፡ ያጸንዕ፡ በመለኮቱ፡ ወኀይሉ፡</l>
-          <l n="3">ዐይነ፡ ልቡናየ፡ ያብርህ፡ በማኅቶተ፡ ጥበብ፡ ሥነ፡ ጸዳሉ፡</l>
-          <l n="4">ከመ፡ እርአይ፡ ገጸ፡ ነገር፡ ለኪዳንኪ፡ ዘይደሉ፡</l>
-          <l n="5">ማርያም፡ እግዝእተ፡ ኵሉ፡ ዘታሕቱ፡ ወላዕሉ።</l>
+          <l n="1">May the Lord, the Giver of Light, Who is Three in Substance</l>
+          <l n="2">Strengthening (His) Oneness in His Divinity and Power,</l>
+          <l n="3">Illumine the eye of my understanding with a lamp of wisdom, beautiful in its radiance,</l>
+          <l n="4">That I may see the likeness of a word which is fitting for your covenant,</l>
+          <l n="5">Mary, Lady of all that is below and above.</l>
         </lg>
         
         <lg type="stanza" n="2" rhyme="ብ">
