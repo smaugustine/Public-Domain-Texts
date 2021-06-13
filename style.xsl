@@ -41,7 +41,7 @@
           }
 
           span.line:before {
-            content: attr(id) ". ";
+            content: attr(data-num) ". ";
           }
 
           span.line {
@@ -51,16 +51,14 @@
       </head>
       <body>
 
-        <section class="section">
-          <div class="container">
-            <div class="hero is-light">
-              <div class="hero-body">
-                <p class="title"><a href="/">መልክአ፡ ጉባኤ፡</a></p>
-                <p class="subtitle"><a href="/">Malkǝʾa Gubāʾe | The Image of the Assembly</a></p>
-              </div>
+        <div class="hero is-dark">
+          <div class="hero-body">
+            <div class="container">
+              <p class="title"><a href="/">መልክአ፡ ጉባኤ፡</a></p>
+              <p class="subtitle"><a href="/"><i>Malkǝʾa Gubāʾe</i> | The Image of the Assembly</a></p>
             </div>
           </div>
-        </section>
+        </div>
 
         <section class="section">
           <div class="container">
@@ -71,12 +69,20 @@
 
               <xsl:apply-templates select="tei:text/tei:body/tei:div[@subtype='malke']"/>
 
-              ተረፈ፡ መልክእ፡
-
-              <xsl:apply-templates select="tei:text/tei:body/tei:div[@subtype='tarafa-malke']"/>
+              <xsl:if test="tei:text/tei:body/tei:div[@subtype='tarafa-malke']">
+                <strong>ተረፈ፡ መልክእ፡</strong>
+                <xsl:apply-templates select="tei:text/tei:body/tei:div[@subtype='tarafa-malke']"/>
+              </xsl:if>
             </div>
           </div>
         </section>
+
+        <footer class="footer">
+          <div class="container">
+            2021 <a href="https://augustinedickinson.com" target="_blank">Augustine Dickinson</a>.<br/>
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC 4.0 BY-NC-SA</a>
+          </div>
+        </footer>
 
       </body>
     </html>
@@ -88,11 +94,15 @@
 
   <xsl:template match="tei:l">
     <span class="line">
-      <xsl:attribute name="id">
-        <xsl:value-of select="../@n"/>
-        <xsl:text>.</xsl:text>
-        <xsl:value-of select="@n"/>
+      <xsl:attribute name="data-num">
+        <xsl:value-of select="../@n"/><xsl:text>.</xsl:text><xsl:value-of select="@n"/>
       </xsl:attribute>
+
+      <xsl:if test="count(ancestor::tei:div[@subtype='malke'])>0">
+        <xsl:attribute name="id">
+          <xsl:value-of select="../@n"/><xsl:text>.</xsl:text><xsl:value-of select="@n"/>
+        </xsl:attribute>
+      </xsl:if>
 
       <xsl:apply-templates/>
     </span>
