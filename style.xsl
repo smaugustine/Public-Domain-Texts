@@ -70,7 +70,7 @@
               <xsl:apply-templates select="tei:text/tei:body/tei:div[@subtype='malke']"/>
 
               <xsl:if test="tei:text/tei:body/tei:div[@subtype='tarafa-malke']">
-                <strong>ተረፈ፡ መልክእ፡</strong>
+                <p class="subtitle" id="tarafa-malke">ተረፈ፡ መልክእ፡</p>
                 <xsl:apply-templates select="tei:text/tei:body/tei:div[@subtype='tarafa-malke']"/>
               </xsl:if>
             </div>
@@ -79,8 +79,8 @@
 
         <footer class="footer">
           <div class="container">
-            2021 <a href="https://augustinedickinson.com" target="_blank">Augustine Dickinson</a>.<br/>
-            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC 4.0 BY-NC-SA</a>
+            ©2021 <a href="https://augustinedickinson.com" target="_blank">Augustine Dickinson</a>.<br/>
+            License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC 4.0 BY-NC-SA</a>.
           </div>
         </footer>
 
