@@ -1,1 +1,1 @@
-# MalkeaGubae
+# መልክአ፡ ጉባኤ፡ (Malkǝʾa Gubāʾe)
