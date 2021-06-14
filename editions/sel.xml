@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="../style.xsl" type="text/xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        
+        <title xml:lang="gez">መልክአ፡ ሥዕል፡</title>
+        <title xml:lang="gez" type="normalized">Malkǝʾa Śǝʿl</title>
+        <title xml:lang="en">Image of the Icon</title>
+
+        <respStmt>
+          <resp>Edited by</resp><name>Alcide Roman</name>
+        </respStmt>
+        
+        <respStmt>
+          <resp>Digitized by</resp><name>Augustine Dickinson</name>
+        </respStmt>
+
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <date>2021</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license.</licence>
+        </availability>
+      </publicationStmt>
+
+      <sourceDesc><ab/></sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      
+      <div type="text" subtype="malke">
+
+        
+
+      </div>
+
+    </body>
+  </text>
+</TEI>
