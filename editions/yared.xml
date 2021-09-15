@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="../style.xsl" type="text/xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        
+        <title xml:lang="gez">መልክአ፡ ያሬድ፡ ካልእ፡</title>
+        <title xml:lang="gez" type="normalized">Malkǝʾa Yāred Kālǝʾ</title>
+        <title xml:lang="en">Image of Yared (Alternate)</title>
+
+        <respStmt>
+          <resp>Edited by</resp><name>Carlo Conti Rossini</name>
+        </respStmt>
+        
+        <respStmt>
+          <resp>Digitized by</resp><name>Augustine Dickinson</name>
+        </respStmt>
+
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <date>2021</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license.</licence>
+        </availability>
+      </publicationStmt>
+
+      <sourceDesc><ab/></sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      
+      <div type="text" subtype="malke">
+
+        <lg type="stanza" n="1" rhyme="ነ">
+          <l n="1">በስመ፡ እግዚአብሔር፡ ሥሉስ፡ ዘበሰማያት፡ አቡነ።</l>
+          <l n="2">በምግባር፡ ወግዕዝ፡ ዘወለደነ።</l>
+          <l n="3">ያሬድ፡ ወጠንኩ፡ ለመልክዕከ፡ ድርሳነ።</l>
+          <l n="4">አብርህ፡ ኅሊናየ፡ ወዘልብየ፡ ዓይነ።</l>
+          <l n="5">ወበልሳንየ፡ ጸሐፍ፡ ሐዲስ፡ ልሳነ።</l>
+        </lg>
+
+        <lg type="stanza" n="2" rhyme="ክ">
+          <l n="1">ሰላም፡ ለዝክረ፡ ስምከ፡ እኵት፡ ወቡሩክ።</l>
+          <l n="2">በአፈ፡ ፈጣሪ፡ አምላክ።</l>
+          <l n="3">መዝሙረ፡ በረከት፡ ያሬድ፡ ከመ፡ አብርሃም፡ ዓርክ።</l>
+          <l n="4">አስተበቍዓከ፡ ለለጊዜ፡ በጽባሕ፡ ወሰርክ።</l>
+          <l n="5">ከመ፡ ታድኅነኒ፡ እመንሱት፡ ወሀውክ።</l>
+        </lg>
+
+      </div>
+
+    </body>
+  </text>
+</TEI>
